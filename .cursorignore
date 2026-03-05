@@ -1,0 +1,13 @@
+# Archived content - stale inputs and completed projects, kept on disk but out of LLM context
+**/_archive/**
+
+# Large binary files
+*.pdf
+*.mp3
+*.mp4
+*.wav
+*.mov
+
+# System files
+.DS_Store
+Thumbs.db
