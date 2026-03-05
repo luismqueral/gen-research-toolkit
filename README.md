@@ -1,14 +1,17 @@
-# Generative Research Toolkit
+<div align="center">
+<img src="images/hypercard-stack.png" alt="HyperCard Stack" width="120">
+</div>
 
-A framework for structured writing and research with an LLM partner. Drop in sources, ask for synthesis, get decision-ready documents.
+<br>
 
-## What This Is
+`gen-research-toolkit` is a framework for structured writing and research with an LLM partner. Drop in sources, ask for synthesis, get decision-ready documents.
 
-This is a methodology for using LLMs as a research and knowledge management tool and synthesizer. The structure, conventions, and prompts here are optimized for:
+The goal is to help you think *with* an LLM — structure your research, synthesize inputs, and produce documents that are ready for decisions — without starting from scratch every time.
+
+### What can you make with it?
 
 - **Briefs** — decision documents, strategy proposals, pitch decks
 - **Syntheses** — distilling transcripts, research, and conversations into insights
-
 - **Planning docs** — next steps, roadmaps, discovery scopes
 
 
