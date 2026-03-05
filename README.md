@@ -62,8 +62,8 @@ gen-research-toolkit/
 4. **Iterate through drafts:**
    Use the prompts in `_lib/prompts/` for common operations.
 
-5. **Generated artifacts land in `output/`:**
-   Keep `input/` as source of truth, `output/` as finished artifacts.
+5. **Work lands in `output/`:**
+   Drafts, syntheses, briefs, and other generated work go here. Documents evolve over time — `output/` isn't just for "finished" work.
 
 6. **Update the changelog:**
    Log meaningful changes in `CHANGELOG.md`.
