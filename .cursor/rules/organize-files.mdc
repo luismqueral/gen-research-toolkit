@@ -1,0 +1,22 @@
+---
+description: Suggest cleanup and organization for project input/output folders
+globs: projects/**/input/**, projects/**/output/**
+alwaysApply: false
+---
+
+# File Organization
+
+When reviewing project folders, suggest improvements but **never** reorganize, rename, move, or archive files without explicit user approval.
+
+## What to Look For
+- Files that could be grouped into subfolders (e.g. `transcripts/`, `visuals/`, `reference/`)
+- Stale inputs that have been fully synthesized and could move to `_archive/`
+- Inconsistent naming (missing kebab-case, missing type prefixes, mixed date formats)
+- Files sitting in `input/` that look like finished artifacts (belong in `output/`)
+- Unsorted or unnamed files that need descriptive names
+
+## How to Suggest
+- Present findings as a numbered list of proposed changes
+- Explain the reasoning for each suggestion
+- Wait for the user to approve, modify, or reject before acting
+- Apply only the changes the user explicitly accepts
