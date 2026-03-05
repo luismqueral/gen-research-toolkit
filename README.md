@@ -90,16 +90,38 @@ Reference a mode by asking the LLM to adopt it: *"As my crit partner, what might
 
 ### Strategy Cards
 
-`generative-strategies.json` is a deck of 201 conceptual lenses for lateral thinking. Each card has a title, a provocative prompt, and a theme. They're designed to break you out of habitual patterns when exploring a problem.
+`strategy-cards.json` is a deck of 201 conceptual lenses for lateral thinking. Each card has a title, a provocative prompt, and a theme. They're designed to break you out of habitual patterns when exploring a problem.
 
 **Themes:** Philosophy (48), History (29), Science (23), Art (18), Architecture (18), Nature (16), Politics (8), Religion (7), Psychology (4), and others.
 
-**Examples:**
-- *Enter the Shadow* — examine what your priorities have pushed into darkness
-- *Adopt the Mycological Perspective* — map hidden connections beneath the visible surface
-- *Commit a Beautiful Nonsense* — sabotage order to reveal what was always arbitrary
-
 Use them by drawing a card at random or by theme: *"Give me a strategy card from the Nature theme and apply it to this problem."*
+
+#### Enter the Shadow
+*Theme: Psychology*
+
+> Every structure casts one. Your codebase has functions nobody calls but nobody deletes. Your dataset has columns everyone ignores. Your organization has topics nobody raises in meetings.
+>
+> These shadows aren't accidents — they're the negative image of your priorities. Everything you chose to illuminate created a corresponding darkness.
+>
+> Walk into it. What's been living there, growing in the dark? What would change if you dragged it into the light — not to fix it, but to see what it's become?
+
+#### Follow the Resistance
+*Theme: Philosophy*
+
+> A hand plane chatters when the grain changes direction. A drill bit binds when it hits a different material. Resistance is information.
+>
+> Where does your work chatter, bind, or slow down? Don't fight through it — read it. What is the resistance telling you about what lies beneath the surface? What change in material or direction has it just revealed?
+>
+> The smoothest path teaches you nothing. Every point of friction is a message from the structure itself.
+
+#### Commit a Beautiful Nonsense
+*Theme: Art*
+
+> Take the most orderly part of this situation. Now sabotage it. Gently.
+>
+> Reverse the hierarchy. Answer the wrong question on purpose. Present the conclusion first and the evidence never. Mix the languages. Serve dessert as the appetizer.
+>
+> Watch what happens. Does it collapse? Or does the nonsense reveal that the original order was always arbitrary — a costume reality was wearing? What truths only emerge when you stop making sense?
 
 ---
 
