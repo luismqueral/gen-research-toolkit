@@ -1,10 +1,10 @@
-<div align="center">
-<img src="images/hypercard-stack.png" alt="HyperCard Stack" width="120">
-</div>
+<p align="center">
+  <img src="images/hypercard-stack.png" alt="HyperCard Graphic" width="150">
+</p>
 
-<br>
+# Generative Research Toolkit
 
-`gen-research-toolkit` is a framework for structured writing and research with an LLM partner. Drop in sources, ask for synthesis, get decision-ready documents.
+A framework for structured writing and research with an LLM partner. Drop in sources, ask for synthesis, get decision-ready documents.
 
 The goal is to help you think *with* an LLM — structure your research, synthesize inputs, and produce documents that are ready for decisions — without starting from scratch every time.
 
