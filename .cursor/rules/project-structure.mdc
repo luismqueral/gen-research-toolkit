@@ -1,0 +1,26 @@
+---
+description: Project folder conventions — input/output structure, naming, archiving
+alwaysApply: true
+---
+
+# Project Structure
+
+## Layout
+Each project lives under `projects/{project-name}/` with two subdirectories:
+- `input/` — source material (transcripts, images, PDFs, notes)
+- `output/` — finished artifacts (briefs, syntheses, reports)
+
+## Naming
+- Folders: `kebab-case` (e.g. `app-dashboard-strategy`)
+- Files: `kebab-case.md` with type prefix: `brief-`, `synthesis-`, `mini-brief-`, `notes-`
+- Date-prefixed when relevant: `2026-03-05-team-sync.md`
+
+## Archiving
+- Move stale material to `_archive/` inside `input/`, `output/`, or at the `projects/` level
+- `_archive/` is excluded from LLM context via `.cursorignore`
+
+## Templates
+Use scaffolds from `_lib/templates/` when starting new documents:
+- `design-brief.md` — full brief with all sections
+- `design-brief-mini.md` — lightweight brief for quick scoping
+- `synthesis.md` — TL;DR, themes, implications, decisions
