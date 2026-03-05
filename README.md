@@ -20,9 +20,9 @@ This is a methodology for using LLMs as a research and knowledge management tool
 gen-research-toolkit/
 ├── projects/
 │   └── {project-name}/
-│       ├── inputs/          # Source material: transcripts, images, PDFs, notes
+│       ├── input/           # Source material: transcripts, images, PDFs, notes
 │       │   └── _archive/    # Stale inputs (ignored by LLM, see .cursorignore)
-│       └── outputs/         # Finished artifacts: briefs, syntheses, reports
+│       └── output/          # Finished artifacts: briefs, syntheses, reports
 ├── _lib/
 │   ├── templates/           # Document scaffolds
 │   ├── strategies/          # Reusable rules and patterns
@@ -45,11 +45,11 @@ gen-research-toolkit/
 1. **Create a project folder:**
    ```
    projects/my-project/
-   ├── inputs/
-   └── outputs/
+   ├── input/
+   └── output/
    ```
 
-2. **Drop source material into `inputs/`:**
+2. **Drop source material into `input/`:**
    - Meeting transcripts (`.md` converted from Whisper, Otter, etc.)
    - Screenshots and diagrams (`.png`, `.jpg`)
    - Reference PDFs, raw notes, data exports
@@ -62,8 +62,8 @@ gen-research-toolkit/
 4. **Iterate through drafts:**
    Use the prompts in `_lib/prompts/` for common operations.
 
-5. **Generated artifacts land in `outputs/`:**
-   Keep `inputs/` as source of truth, `outputs/` as finished artifacts.
+5. **Generated artifacts land in `output/`:**
+   Keep `input/` as source of truth, `output/` as finished artifacts.
 
 6. **Update the changelog:**
    Log meaningful changes in `CHANGELOG.md`.
@@ -107,13 +107,13 @@ Use them by drawing a card at random or by theme: *"Give me a strategy card from
 
 ### The `_archive/` Pattern
 
-Move stale inputs to `inputs/_archive/` to keep them on disk but out of LLM context. The `.cursorignore` file excludes:
+Move stale inputs to `input/_archive/` to keep them on disk but out of LLM context. The `.cursorignore` file excludes:
 
 ```
 **/_archive/**
 ```
 
-The underscore prefix floats `_archive/` to the top of an alphabetically sorted file tree, making it easy to spot. This pattern works anywhere — inside `inputs/`, `outputs/`, or at the `projects/` level for completed projects.
+The underscore prefix floats `_archive/` to the top of an alphabetically sorted file tree, making it easy to spot. This pattern works anywhere — inside `input/`, `output/`, or at the `projects/` level for completed projects.
 
 This is useful when:
 - A transcript has been fully synthesized
