@@ -1,0 +1,126 @@
+[
+  {
+    "id": "research-partner",
+    "title": "Research partner",
+    "subtitle": "Quickly access, aggregate, and analyze information",
+    "when_to_use": [
+      "Discovery, competitive analysis, entering a new problem space"
+    ],
+    "what_it_can_do": [
+      "Retrieve and aggregate information from a large number of sources",
+      "Summarize complex information into digestible chunks",
+      "Explain technical concepts in plain language"
+    ],
+    "try_asking": [
+      "Summarize the key findings from recent studies on the impact of dark mode on eye strain with citations from reputable sources.",
+      "Make a list of the most popular news aggregators and how they differ.",
+      "In this tech design document, what are the implications for our UX design?"
+    ]
+  },
+  {
+    "id": "brainstorm-partner",
+    "title": "Brainstorm partner",
+    "subtitle": "Expand thinking and explore divergent possibilities",
+    "when_to_use": [
+      "Ideation, concepting, when ‘stuck’"
+    ],
+    "what_it_can_do": [
+      "Generate unexpected design solutions",
+      "Help you see beyond your usual patterns",
+      "Expand half‑formed ideas into more complete concepts"
+    ],
+    "try_asking": [
+      "Brainstorm three completely different interaction models for onboarding that don’t rely on a tour.",
+      "Imagine four workshop formats for Generative Design Day that help teams connect to a sense of play."
+    ]
+  },
+  {
+    "id": "crit-partner",
+    "title": "Crit partner",
+    "subtitle": "Get detailed critique to identify overlooked issues and strengthen designs via critical feedback",
+    "when_to_use": [
+      "Concepting, planning, strategizing, early design approaches"
+    ],
+    "what_it_can_do": [
+      "Play devil’s advocate to challenge assumptions",
+      "Help anticipate obstacles or difficulties",
+      "Provide critical feedback by simulating an expert"
+    ],
+    "try_asking": [
+      "What might go wrong with this onboarding flow?",
+      "What counter‑arguments exist for why we should prioritize this feature?"
+    ]
+  },
+  {
+    "id": "empathy-partner",
+    "title": "Empathy partner",
+    "subtitle": "Explore and raise awareness of other perspectives by simulating different points of view",
+    "when_to_use": [
+      "When you need to zoom out"
+    ],
+    "what_it_can_do": [
+      "Role‑play different personas to understand their viewpoints or feelings",
+      "Explore potential emotional reactions to a product, message, or situation",
+      "Analyze text for sentiment or emotional tone"
+    ],
+    "try_asking": [
+      "As a long‑time reader of the New York Times, how would you react to this change?",
+      "As a power user who checks this tool daily, what might be your initial impressions of this dashboard design?"
+    ]
+  },
+  {
+    "id": "polish-partner",
+    "title": "Polish partner",
+    "subtitle": "Refine or optimize with minor adjustments",
+    "when_to_use": [
+      "Detailed artifact creation"
+    ],
+    "what_it_can_do": [
+      "Suggest improvements or ways to build upon an existing concept",
+      "Help articulate the value and strengths of an idea more clearly",
+      "Identify areas where more detail or precision might be needed"
+    ],
+    "try_asking": [
+      "How can we improve the information hierarchy on this dashboard to make key metrics more prominent?",
+      "Suggest three ways to make the error messages in this application more helpful and less alarming for users."
+    ]
+  },
+  {
+    "id": "build-partner",
+    "title": "Build partner",
+    "subtitle": "Translate abstract ideas or concepts into more concrete forms",
+    "when_to_use": [
+      "Concepting & prototyping"
+    ],
+    "what_it_can_do": [
+      "Generate images in response to prompts",
+      "Write product text in response to requirements",
+      "Create programs in response to requirements"
+    ],
+    "try_asking": [
+      "Build an interest page for readers of The New York Times using React and Tailwind CSS.",
+      "Create an application icon of a plate and fork with a clean, modern style."
+    ]
+  },
+  {
+    "id": "planning-partner",
+    "title": "Planning partner",
+    "subtitle": "Organize tasks, create project plans, structure design activities, and define processes",
+    "when_to_use": [
+      "Problem definition & planning deliverables"
+    ],
+    "what_it_can_do": [
+      "Help structure a complex project or document",
+      "Create outlines, agendas, checklists, or step‑by‑step plans",
+      "Summarize discussions or key decisions to inform next steps in planning",
+      "Break down large tasks into smaller, manageable components"
+    ],
+    "try_asking": [
+      "Outline the key phases and activities for a two‑week design sprint focused on onboarding.",
+      "Identify action items and unassigned tasks from these meeting notes.",
+      "Create a design/dev hand‑off checklist."
+    ]
+  }
+]
+
+
