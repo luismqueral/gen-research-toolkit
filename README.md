@@ -34,7 +34,7 @@ gen-research-toolkit/
 
 ### Naming Conventions
 
-- **Folders:** `kebab-case` (e.g., `always-ready-2026`, `api-governance`)
+- **Folders:** `kebab-case` (e.g., `app-dashboard-strategy`, `api-governance`)
 - **Files:** `kebab-case.md` (e.g., `brief-leadership-pitch.md`, `synthesis-user-interviews.md`)
 - **Prefix by type:** `brief-`, `synthesis-`, `mini-brief-`, `readiness-`, `notes-`
 
