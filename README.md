@@ -70,6 +70,39 @@ gen-research-toolkit/
 
 ---
 
+## Generative Strategies (`_lib/strategies/`)
+
+### Mode Cards
+
+`mode-cards.json` defines interaction modes that shape how the LLM engages with you. Each mode has a role, when to use it, and example prompts.
+
+| Mode | Use When |
+|------|----------|
+| **Research partner** | Discovery, competitive analysis, entering a new problem space |
+| **Brainstorm partner** | Ideation, concepting, when "stuck" |
+| **Crit partner** | Challenging assumptions, anticipating obstacles |
+| **Empathy partner** | Exploring other perspectives, simulating user reactions |
+| **Polish partner** | Refining artifacts, improving clarity and precision |
+| **Build partner** | Translating ideas into concrete prototypes or code |
+| **Planning partner** | Structuring projects, creating outlines and checklists |
+
+Reference a mode by asking the LLM to adopt it: *"As my crit partner, what might go wrong with this approach?"*
+
+### Strategy Cards
+
+`generative-strategies.json` is a deck of 201 conceptual lenses for lateral thinking. Each card has a title, a provocative prompt, and a theme. They're designed to break you out of habitual patterns when exploring a problem.
+
+**Themes:** Philosophy (48), History (29), Science (23), Art (18), Architecture (18), Nature (16), Politics (8), Religion (7), Psychology (4), and others.
+
+**Examples:**
+- *Enter the Shadow* — examine what your priorities have pushed into darkness
+- *Adopt the Mycological Perspective* — map hidden connections beneath the visible surface
+- *Commit a Beautiful Nonsense* — sabotage order to reveal what was always arbitrary
+
+Use them by drawing a card at random or by theme: *"Give me a strategy card from the Nature theme and apply it to this problem."*
+
+---
+
 ## A Few Notes on Managing Context
 
 ### The `_archive/` Pattern
