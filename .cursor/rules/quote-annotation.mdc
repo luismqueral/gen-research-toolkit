@@ -1,0 +1,21 @@
+---
+description: Add bracketed context inside quotes to disambiguate without changing meaning
+globs: projects/**/output/**
+alwaysApply: false
+---
+
+# Quote Annotation
+
+When quoting transcripts or conversations, insert short `[square-bracket]` context to clarify referents — without changing the speaker's meaning or tone.
+
+## Guidelines
+- Keep each bracket to 2–6 words
+- Clarify who/what/when, not interpretation or motive
+- Do not fix grammar or polish wording outside brackets
+- Do not change sentiment, exaggerate, or soften
+- Include a source pointer (file path + line range) nearby
+
+## Examples
+- "I just wanna see if [our shared model of the work ahead] aligns."
+- "I cannot tell you today what access you have [across our core systems] without me going [system-by-system]."
+- "multiple data sources, inconsistent governance [across teams/tools]..."

@@ -1,0 +1,20 @@
+---
+description: Distinguish and cite facts, assumptions, and opinions in documents
+globs: projects/**/output/**
+alwaysApply: false
+---
+
+# Evidence Standards
+
+## Three Categories
+- **Facts** — verifiable, with inline source: `(source: filename.md, line 42)` or `(source: transcript, 12:34)`
+- **Assumptions** — label explicitly as "**Assumption:**" or "[assuming X]" and note how to validate
+- **Opinions** — own them ("We recommend...") and provide rationale
+
+## Pull Quotes
+Only when the quote carries decisive signal:
+- A stakeholder's explicit position
+- Evidence that directly supports or contradicts a claim
+- Memorable phrasing that captures a theme
+
+Avoid decorative quotes that don't advance the argument.

@@ -1,0 +1,17 @@
+---
+description: When to pause drafting and ask for clarification instead of guessing
+globs: projects/**/output/**
+alwaysApply: false
+---
+
+# Stop Rules
+
+Stop drafting and escalate when:
+
+1. **Ambiguous scope** — request has multiple interpretations → ask which to pursue
+2. **Missing prerequisites** — key inputs referenced but not provided → request them
+3. **Conflicting evidence** — sources contradict on a material point → present both, ask for tie-break
+4. **Circular revisions** — back and forth without convergence → propose a decision framework
+5. **Out of expertise** — domain knowledge gap → flag it and recommend review
+
+When stopping, be specific about what's blocked, why it matters, and propose a resolution.
