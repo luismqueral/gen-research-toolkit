@@ -93,33 +93,27 @@ Use them by drawing a card at random: *"Give me a strategy card and apply it to 
 
 #### Enter the Shadow
 
-```
-Every structure casts one. Your codebase has functions nobody calls but nobody deletes. Your dataset has columns everyone ignores. Your organization has topics nobody raises in meetings.
-
-These shadows aren't accidents — they're the negative image of your priorities. Everything you chose to illuminate created a corresponding darkness.
-
-Walk into it. What's been living there, growing in the dark? What would change if you dragged it into the light — not to fix it, but to see what it's become?
-```
+> Every structure casts one. Your codebase has functions nobody calls but nobody deletes. Your dataset has columns everyone ignores. Your organization has topics nobody raises in meetings.
+>
+> These shadows aren't accidents — they're the negative image of your priorities. Everything you chose to illuminate created a corresponding darkness.
+>
+> Walk into it. What's been living there, growing in the dark? What would change if you dragged it into the light — not to fix it, but to see what it's become?
 
 #### Follow the Resistance
 
-```
-A hand plane chatters when the grain changes direction. A drill bit binds when it hits a different material. Resistance is information.
-
-Where does your work chatter, bind, or slow down? Don't fight through it — read it. What is the resistance telling you about what lies beneath the surface? What change in material or direction has it just revealed?
-
-The smoothest path teaches you nothing. Every point of friction is a message from the structure itself.
-```
+> A hand plane chatters when the grain changes direction. A drill bit binds when it hits a different material. Resistance is information.
+>
+> Where does your work chatter, bind, or slow down? Don't fight through it — read it. What is the resistance telling you about what lies beneath the surface? What change in material or direction has it just revealed?
+>
+> The smoothest path teaches you nothing. Every point of friction is a message from the structure itself.
 
 #### Commit a Beautiful Nonsense
 
-```
-Take the most orderly part of this situation. Now sabotage it. Gently.
-
-Reverse the hierarchy. Answer the wrong question on purpose. Present the conclusion first and the evidence never. Mix the languages. Serve dessert as the appetizer.
-
-Watch what happens. Does it collapse? Or does the nonsense reveal that the original order was always arbitrary — a costume reality was wearing? What truths only emerge when you stop making sense?
-```
+> Take the most orderly part of this situation. Now sabotage it. Gently.
+>
+> Reverse the hierarchy. Answer the wrong question on purpose. Present the conclusion first and the evidence never. Mix the languages. Serve dessert as the appetizer.
+>
+> Watch what happens. Does it collapse? Or does the nonsense reveal that the original order was always arbitrary — a costume reality was wearing? What truths only emerge when you stop making sense?
 
 ---
 
