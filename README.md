@@ -6,7 +6,7 @@
 
 `gen-research-toolkit` is a framework for structured writing and research with an LLM partner. Drop in sources, ask for synthesis, get decision-ready documents.
 
-The goal is to help you think *with* an LLM — structure your research, synthesize inputs, and produce documents that are ready for decisions — without starting from scratch every time.
+The goal is to help you *think* with an LLM — structure your research, synthesize inputs, and produce documents that are ready for decisions — without starting from scratch every time.
 
 ### What can you make with it?
 
