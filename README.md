@@ -35,12 +35,6 @@ gen-research-toolkit/
 └── .cursor/rules/           # Workspace-level instructions for the LLM
 ```
 
-### Naming Conventions
-
-- **Folders:** `kebab-case` (e.g., `app-dashboard-strategy`, `api-governance`)
-- **Files:** `kebab-case.md` (e.g., `brief-leadership-pitch.md`, `synthesis-user-interviews.md`)
-- **Prefix by type:** `brief-`, `synthesis-`, `mini-brief-`, `readiness-`, `notes-`
-
 ---
 
 ## Quick Start
