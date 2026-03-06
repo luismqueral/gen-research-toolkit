@@ -30,7 +30,6 @@ gen-research-toolkit/
 │   ├── templates/           # Document scaffolds
 │   ├── strategies/          # Reusable rules and patterns
 │   └── prompts/             # Canned prompts for common operations
-├── CHANGELOG.md             # Running log of meaningful changes
 ├── .cursorignore            # Patterns to exclude from LLM context
 └── .cursor/rules/           # Workspace-level instructions for the LLM
 ```
@@ -61,9 +60,6 @@ gen-research-toolkit/
 
 5. **Work lands in `output/`:**
    Drafts, syntheses, briefs, and other generated work go here. Documents evolve over time — `output/` isn't just for "finished" work.
-
-6. **Update the changelog:**
-   Log meaningful changes in `CHANGELOG.md`.
 
 ---
 
