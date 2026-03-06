@@ -93,14 +93,11 @@ Reference a mode by asking the LLM to adopt it: *"As my crit partner, what might
 
 ### Strategy Cards
 
-`strategy-cards.json` is a deck of 201 conceptual lenses for lateral thinking. Each card has a title, a provocative prompt, and a theme. They're designed to break you out of habitual patterns when exploring a problem.
+`strategy-cards.json` is a deck of 201 conceptual lenses for lateral thinking. Each card has a title and a provocative prompt. They're designed to break you out of habitual patterns when exploring a problem.
 
-**Themes:** Philosophy (48), History (29), Science (23), Art (18), Architecture (18), Nature (16), Politics (8), Religion (7), Psychology (4), and others.
-
-Use them by drawing a card at random or by theme: *"Give me a strategy card from the Nature theme and apply it to this problem."*
+Use them by drawing a card at random: *"Give me a strategy card and apply it to this problem."*
 
 #### Enter the Shadow
-*Theme: Psychology*
 
 > Every structure casts one. Your codebase has functions nobody calls but nobody deletes. Your dataset has columns everyone ignores. Your organization has topics nobody raises in meetings.
 >
@@ -109,7 +106,6 @@ Use them by drawing a card at random or by theme: *"Give me a strategy card from
 > Walk into it. What's been living there, growing in the dark? What would change if you dragged it into the light — not to fix it, but to see what it's become?
 
 #### Follow the Resistance
-*Theme: Philosophy*
 
 > A hand plane chatters when the grain changes direction. A drill bit binds when it hits a different material. Resistance is information.
 >
@@ -118,7 +114,6 @@ Use them by drawing a card at random or by theme: *"Give me a strategy card from
 > The smoothest path teaches you nothing. Every point of friction is a message from the structure itself.
 
 #### Commit a Beautiful Nonsense
-*Theme: Art*
 
 > Take the most orderly part of this situation. Now sabotage it. Gently.
 >
