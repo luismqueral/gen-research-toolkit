@@ -1,22 +1,12 @@
 ---
-description: How to use mode cards and strategy cards for lateral thinking
+description: How to use strategy cards for lateral thinking
 globs: tools/strategies/**
 alwaysApply: false
 ---
 
 # Generative Strategies
 
-## Mode Cards (`mode-cards.json`)
-When the user asks you to adopt a mode, load the matching card and follow its framing:
-- **Research partner** — aggregate, summarize, explain
-- **Brainstorm partner** — diverge, explore unexpected angles
-- **Crit partner** — challenge assumptions, anticipate failure
-- **Empathy partner** — simulate perspectives, explore reactions
-- **Polish partner** — refine, clarify, improve precision
-- **Build partner** — translate ideas into prototypes or code
-- **Planning partner** — structure, outline, break down tasks
-
-## Strategy Cards (`generative-strategies.json`)
+## Strategy Cards (`strategy-cards.json`)
 A deck of 201 conceptual lenses organized by theme. When asked to draw a card:
 1. Select randomly (or by requested theme)
 2. Present the card title and prompt
