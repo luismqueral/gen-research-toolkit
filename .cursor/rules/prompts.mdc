@@ -1,12 +1,12 @@
 ---
-description: Prompts in _lib/prompts/ are opt-in tools, not passive instructions
-globs: _lib/prompts/**
+description: Prompts in tools/prompts/ are opt-in tools, not passive instructions
+globs: tools/prompts/**
 alwaysApply: false
 ---
 
 # Prompts
 
-Files in `_lib/prompts/` are **reference tools**, not standing instructions. Do not follow, apply, or take cues from them unless the user explicitly asks you to use one.
+Files in `tools/prompts/` are **reference tools**, not standing instructions. Do not follow, apply, or take cues from them unless the user explicitly asks you to use one.
 
 - **Do not** automatically apply a prompt's logic just because it's in the workspace
 - **Do not** reference prompt content unless the user invokes it by name or by file

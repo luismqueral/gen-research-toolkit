@@ -1,6 +1,6 @@
 ---
 description: How to use mode cards and strategy cards for lateral thinking
-globs: _lib/strategies/**
+globs: tools/strategies/**
 alwaysApply: false
 ---
 

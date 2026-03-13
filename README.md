@@ -26,7 +26,7 @@ gen-research-toolkit/
 │       ├── input/           # Source material: transcripts, images, PDFs, notes
 │       │   └── _archive/    # Stale inputs (ignored by LLM, see .cursorignore)
 │       └── output/          # Finished artifacts: briefs, syntheses, reports
-├── _lib/
+├── tools/
 │   ├── templates/           # Document scaffolds
 │   ├── strategies/          # Reusable rules and patterns
 │   └── prompts/             # Canned prompts for common operations
@@ -56,14 +56,14 @@ gen-research-toolkit/
    > "Given these inputs, what are the key themes? Outline a synthesis."
 
 4. **Iterate through drafts:**
-   Use the prompts in `_lib/prompts/` for common operations.
+   Use the prompts in `tools/prompts/` for common operations.
 
 5. **Work lands in `output/`:**
    Drafts, syntheses, briefs, and other generated work go here. Documents evolve over time — `output/` isn't just for "finished" work.
 
 ---
 
-## Generative Strategies (`_lib/strategies/`)
+## Generative Strategies (`tools/strategies/`)
 
 ### Mode Cards
 

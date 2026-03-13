@@ -20,7 +20,7 @@ Each project lives under `projects/{project-name}/` with two subdirectories:
 - `_archive/` is excluded from LLM context via `.cursorignore`
 
 ## Templates
-Use scaffolds from `_lib/templates/` when starting new documents:
+Use scaffolds from `tools/templates/` when starting new documents:
 - `design-brief.md` — full brief with all sections
 - `design-brief-mini.md` — lightweight brief for quick scoping
 - `synthesis.md` — TL;DR, themes, implications, decisions
