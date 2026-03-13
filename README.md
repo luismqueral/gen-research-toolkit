@@ -8,7 +8,7 @@
 
 The goal is to help you *think* with an LLM — structure your research, synthesize inputs, and produce documents that are ready for decisions — without starting from scratch every time.
 
-### What can you make with it?
+### A few example artifacts this might be helpful for...
 
 - **Briefs** — decision documents, strategy proposals, pitch decks
 - **Syntheses** — distilling transcripts, research, and conversations into insights
