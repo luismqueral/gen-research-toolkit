@@ -30,8 +30,10 @@ gen-research-toolkit/
 │   ├── templates/           # Document scaffolds
 │   ├── strategies/          # Reusable rules and patterns
 │   └── prompts/             # Canned prompts for common operations
-├── .cursorignore            # Patterns to exclude from LLM context
-└── .cursor/rules/           # Workspace-level instructions for the LLM
+├── .cursorignore            # Patterns to exclude from LLM context (Cursor)
+├── .cursor/rules/           # Workspace-level instructions (Cursor)
+├── CLAUDE.md                # Project instructions (Claude Code)
+└── .claudeignore            # Patterns to exclude from LLM context (Claude Code)
 ```
 
 ---
@@ -101,7 +103,7 @@ Use them by drawing a card at random: *"Give me a strategy card and apply it to 
 
 ### The `_archive/` Pattern
 
-Move stale inputs to `input/_archive/` to keep them on disk but out of LLM context. The `.cursorignore` file excludes:
+Move stale inputs to `input/_archive/` to keep them on disk but out of LLM context. The `.cursorignore` and `.claudeignore` files exclude:
 
 ```
 **/_archive/**

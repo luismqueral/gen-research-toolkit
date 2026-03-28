@@ -1,5 +1,5 @@
 ---
-description: Project folder conventions — input/output structure, naming, archiving
+description: Project folder conventions — input/output structure, naming, archiving, and front-matter requirements
 alwaysApply: true
 ---
 
@@ -12,8 +12,12 @@ Each project lives under `projects/{project-name}/` with two subdirectories:
 
 ## Naming
 - Folders: `kebab-case` (e.g. `app-dashboard-strategy`)
-- Files: `kebab-case.md` with type prefix: `brief-`, `synthesis-`, `mini-brief-`, `notes-`
+- Files: `kebab-case.md` with type prefix when applicable: `brief-`, `synthesis-`, `mini-brief-`, `notes-`, `rfd-`
 - Date-prefixed when relevant: `2026-03-05-team-sync.md`
+- The file prefix should align with the front-matter `type` value (e.g. a file named `synthesis-friction-model.md` should have `type: synthesis`)
+
+## Front-Matter
+Every `.md` file must include YAML front-matter with all 7 standard fields: `title`, `date`, `type`, `context`, `project`, `owner`, `labels`. See the front-matter standards rule for field definitions and controlled vocabularies.
 
 ## Archiving
 - Move stale material to `_archive/` inside `input/`, `output/`, or at the `projects/` level
@@ -24,3 +28,5 @@ Use scaffolds from `tools/templates/` when starting new documents:
 - `design-brief.md` — full brief with all sections
 - `design-brief-mini.md` — lightweight brief for quick scoping
 - `synthesis.md` — TL;DR, themes, implications, decisions
+- `rfd.md` — Request for Discussion
+- `smart-goal.md` — SMART goal with alignment and milestones

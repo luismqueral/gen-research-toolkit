@@ -14,6 +14,8 @@ When reviewing project folders, suggest improvements but **never** reorganize, r
 - Inconsistent naming (missing kebab-case, missing type prefixes, mixed date formats)
 - Files sitting in `input/` that look like finished artifacts (belong in `output/`)
 - Unsorted or unnamed files that need descriptive names
+- **Missing or incomplete front-matter** — flag files without YAML front-matter or with missing required fields (especially `context`)
+- **Non-standard `type` values** — flag front-matter using `type` values outside the closed enum defined in front-matter-standards
 
 ## How to Suggest
 - Present findings as a numbered list of proposed changes

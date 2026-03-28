@@ -1,0 +1,97 @@
+---
+description: Front-matter metadata schema — required fields, controlled vocabularies, and handling rules for all Markdown files
+alwaysApply: true
+---
+
+# Front-Matter Standards
+
+Every `.md` file in this workspace **must** have YAML front-matter with these 7 fields:
+
+```yaml
+---
+title: "Human-readable title"
+date: YYYY-MM-DD
+type: synthesis
+context: "Real-world situation, decision, or event that prompted this document"
+project: platforms-design
+owner: "Luis Queral"
+labels: [cross-cutting, search, tags]
+---
+```
+
+## Field Definitions
+
+### `title`
+Human-readable document title. Infer from the first `#` heading or filename if not obvious.
+
+### `date`
+Creation date in ISO 8601 format: `YYYY-MM-DD`.
+
+### `type` — closed enum
+
+| Value | Use for |
+|-------|---------|
+| `rfd` | Requests for Discussion |
+| `brief` | Full design briefs |
+| `mini-brief` | Lightweight briefs |
+| `synthesis` | Cross-source syntheses |
+| `analysis` | Analytical documents, models, frameworks |
+| `notes` | Meeting notes, retro notes, session notes |
+| `transcript` | Interview/meeting transcripts |
+| `reference` | External articles, papers, book notes |
+| `pitch` | Speaker pitches, proposals |
+| `goal` | Personal/team goals |
+| `diagram` | Diagram descriptions |
+| `guide` | Process guides, how-tos |
+| `changelog` | Change logs |
+| `readme` | Project readmes |
+| `template` | Template files |
+
+Do **not** invent new `type` values. If a document doesn't fit, use the closest match and note the mismatch to the user.
+
+### `context` — critical handling rules
+
+Captures why this document exists *right now* — the real-world situation, decision, or event behind it.
+
+- **Never auto-generate.** Always ask the user to confirm or supply the `context` value.
+- When creating a new file: ask "What is the real-world context for this document?" before filling the field.
+- When backfilling an existing file: propose a context based on document contents, but **always confirm before writing it**.
+- A wrong `context` value degrades all downstream work that references this document. Treat it as high-stakes metadata.
+
+### `project`
+The `kebab-case` project folder name (e.g. `platforms-design`). Derived from the file's location under `projects/`. Use `""` for files not inside a project.
+
+### `owner`
+Who owns this document. Always double-quoted (e.g. `"Luis Queral"`).
+
+### `labels`
+Free-form tags for cross-cutting search. Flow-style array: `labels: [accessibility, craft, ux-tenets]`. Use `[]` when nothing applies yet.
+
+## Optional Extensions
+
+Any document may add fields beyond the standard 7 when they're useful. Common optional fields:
+
+| Field | Useful for |
+|-------|-----------|
+| `audience` | Briefs, syntheses, RFDs — who reads this |
+| `purpose` | Briefs, syntheses, analyses — what decision or action this enables |
+| `source` | Syntheses, analyses, references — input files, URLs, timestamps |
+| `revision` | Briefs when iterated — integer version counter |
+| `rfd` | RFDs — string number (e.g. `"0005"`) |
+| `tenets` | RFDs — standing principles this RFD touches |
+| `author` | References — original author of external content |
+| `goal_type` | Goals — `mission-priority`, `functional-priority`, `development` |
+
+## Formatting Conventions
+
+- Dates: always ISO 8601 `YYYY-MM-DD`
+- Multi-word string values: always double-quoted (`owner: "Luis Queral"`)
+- Arrays: flow style for short lists (`labels: [platforms, craft, ux-tenets]`)
+- `project` value: must match the `kebab-case` folder name under `projects/`
+- Field order: always `title`, `date`, `type`, `context`, `project`, `owner`, `labels` — then any optional fields after
+
+## When to Apply
+
+- **New files:** Always include all 7 standard fields. Always ask the user for `context`.
+- **Existing files without front-matter:** When substantially editing, propose adding front-matter — but do not add silently. Ask the user first.
+- **Existing files with partial front-matter:** Propose completing missing fields. Always confirm `context` with the user.
