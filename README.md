@@ -4,9 +4,9 @@
 
 <br>
 
-`gen-research-toolkit` is a framework for structured writing and research with an LLM partner. This is a structured workflow designed to help you tend gardens of context, experiment with references, and harvest output as you see fit.
+`gen-research-toolkit` is a framework for structured writing and research with an LLM partner.
 
-The goal is to help you *think* with an LLM — structure your research, synthesize inputs, and produce documents that are ready for decisions — without starting from scratch every time.
+This is a structured workflow designed to help you tend gardens of context, experiment with references, and harvest output as you see fit.
 
 ### A few example artifacts this might be helpful for...
 
