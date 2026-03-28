@@ -4,41 +4,19 @@
 
 <br>
 
-`gen-research-toolkit` is a framework for structured writing and research with an LLM partner.
-
-This is a structured workflow designed to help you tend gardens of context, experiment with references, and harvest output as you see fit.
-
-### A few example artifacts this might be helpful for...
-
-- **Briefs** — decision documents, strategy proposals, pitch decks
-- **Syntheses** — distilling transcripts, research, and conversations into insights
-- **Planning docs** — next steps, roadmaps, discovery scopes
+`gen-research-toolkit` is a framework for LLM-assisted research and writing.
 
 
----
+## Get Started
+**Step 1:** Open Claude Code (or any agentic code editor)
 
-## Folder Structure
+**Step 2:** Enter this prompt:
 
 ```
-gen-research-toolkit/
-├── projects/
-│   └── {project-name}/
-│       ├── input/           # Source material: transcripts, images, PDFs, notes
-│       │   └── _archive/    # Stale inputs (ignored by LLM, see .cursorignore)
-│       └── output/          # Finished artifacts: briefs, syntheses, reports
-├── tools/
-│   ├── templates/           # Document scaffolds
-│   ├── strategies/          # Reusable rules and patterns
-│   └── prompts/             # Canned prompts for common operations
-├── .cursorignore            # Patterns to exclude from LLM context (Cursor)
-├── .cursor/rules/           # Workspace-level instructions (Cursor)
-├── CLAUDE.md                # Project instructions (Claude Code)
-└── .claudeignore            # Patterns to exclude from LLM context (Claude Code)
+Install https://github.com/luismqueral/gen-research-toolkit.git run ONBOARD.md
 ```
 
----
-
-## Quick Start
+## How It Works
 
 1. **Create a project folder:**
    ```
@@ -47,77 +25,35 @@ gen-research-toolkit/
    └── output/
    ```
 
-2. **Drop source material into `input/`:**
-   - Meeting transcripts (`.md` converted from Whisper, Otter, etc.)
-   - Screenshots and diagrams (`.png`, `.jpg`)
-   - Reference PDFs, raw notes, data exports
-   - Any other context relevant to the project
+2. **Drop source material into `input/`** — transcripts, screenshots, PDFs, raw notes, data exports.
 
-3. **Start with structure:**
-   Ask the LLM to outline your thinking before writing prose.
-   > "Given these inputs, what are the key themes? Outline a synthesis."
+3. **Start with structure** — ask the LLM to outline your thinking before writing prose.
 
-4. **Iterate through drafts:**
-   Use the prompts in `tools/prompts/` for common operations.
+4. **Iterate through drafts** — use the prompts in `tools/prompts/` for common operations.
 
-5. **Work lands in `output/`:**
-   Drafts, syntheses, briefs, and other generated work go here. Documents evolve over time — `output/` isn't just for "finished" work.
+5. **Work lands in `output/`** — drafts, syntheses, briefs. Documents evolve over time.
 
----
+## Strategy Cards
 
-## Generative Strategies (`tools/strategies/`)
+`tools/strategies/strategy-cards.json` is a deck of 201 conceptual lenses for lateral thinking. Each card has a title and a provocative prompt designed to break you out of habitual patterns.
 
-### Strategy Cards
+Try it: *"Give me a strategy card and apply it to this problem."*
 
-`strategy-cards.json` is a deck of 201 conceptual lenses for lateral thinking. Each card has a title and a provocative prompt. They're designed to break you out of habitual patterns when exploring a problem.
+A few examples:
 
-Use them by drawing a card at random: *"Give me a strategy card and apply it to this problem."*
+> **Follow the Resistance** — A hand plane chatters when the grain changes direction. A drill bit binds when it hits a different material. Resistance is information. Where does your work chatter, bind, or slow down? Don't fight through it — read it.
 
-#### Enter the Shadow
+> **Enter the Shadow** — Every structure casts one. Your codebase has functions nobody calls but nobody deletes. Your organization has topics nobody raises in meetings. These shadows aren't accidents — they're the negative image of your priorities.
 
-> Every structure casts one. Your codebase has functions nobody calls but nobody deletes. Your dataset has columns everyone ignores. Your organization has topics nobody raises in meetings.
->
-> These shadows aren't accidents — they're the negative image of your priorities. Everything you chose to illuminate created a corresponding darkness.
->
-> Walk into it. What's been living there, growing in the dark? What would change if you dragged it into the light — not to fix it, but to see what it's become?
+> **Commit a Beautiful Nonsense** — Take the most orderly part of this situation. Now sabotage it. Gently. Does it collapse? Or does the nonsense reveal that the original order was always arbitrary?
 
-#### Follow the Resistance
+## Managing Context
 
-> A hand plane chatters when the grain changes direction. A drill bit binds when it hits a different material. Resistance is information.
->
-> Where does your work chatter, bind, or slow down? Don't fight through it — read it. What is the resistance telling you about what lies beneath the surface? What change in material or direction has it just revealed?
->
-> The smoothest path teaches you nothing. Every point of friction is a message from the structure itself.
+Move stale inputs to `_archive/` to keep them on disk but out of LLM context. The `.cursorignore` and `.claudeignore` files exclude `**/_archive/**`.
 
-#### Commit a Beautiful Nonsense
-
-> Take the most orderly part of this situation. Now sabotage it. Gently.
->
-> Reverse the hierarchy. Answer the wrong question on purpose. Present the conclusion first and the evidence never. Mix the languages. Serve dessert as the appetizer.
->
-> Watch what happens. Does it collapse? Or does the nonsense reveal that the original order was always arbitrary — a costume reality was wearing? What truths only emerge when you stop making sense?
+This pattern works anywhere — inside `input/`, `output/`, or at the `projects/` level for completed projects.
 
 ---
 
-## A Few Notes on Managing Context
-
-### The `_archive/` Pattern
-
-Move stale inputs to `input/_archive/` to keep them on disk but out of LLM context. The `.cursorignore` and `.claudeignore` files exclude:
-
-```
-**/_archive/**
-```
-
-The underscore prefix floats `_archive/` to the top of an alphabetically sorted file tree, making it easy to spot. This pattern works anywhere — inside `input/`, `output/`, or at the `projects/` level for completed projects.
-
-This is useful when:
-- A transcript has been fully synthesized
-- Source material is superseded by newer versions
-- You want to reduce noise without deleting history
-
-
-## Further Reading
-
-This workflow is based on another project: [media-tool-kit](https://github.com/luismqueral/media-tool-kit).
+Based on [media-tool-kit](https://github.com/luismqueral/media-tool-kit).
 
